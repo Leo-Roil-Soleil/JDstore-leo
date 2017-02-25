@@ -40,6 +40,7 @@ group :development do
   gem 'web-console'
   gem 'listen', '~> 3.0.5'
   gem 'bootstrap-sass'
+  gem 'devise'
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
 
 end
