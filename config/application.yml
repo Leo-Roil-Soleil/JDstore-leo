@@ -11,21 +11,13 @@
 #   stripe_publishable_key: pk_live_9lcthxpSIHbGwmdO941O1XVU
 
 production:
-   qiniu_access_key: lx3soAekptE6RGMKt_-LBi-VYee06XYjC6qKwsTD  # 你的 qiniu AccessKey
+  qiniu_access_key: lx3soAekptE6RGMKt_-LBi-VYee06XYjC6qKwsTD  # 你的 qiniu AccessKey
+  qiniu_secret_key: TrRWScDt3e-0jW0giLWDWuXgXHhvH7VxFQPjnNtk  # 你的 qiniu SecretKey
+  qiniu_bucket: jdstore-demo  # 你的 qiniu bucket
+  qiniu_bucket_domain: om2xiyi90.bkt.clouddn.com # 你的 qiniu bucket domain
 
-   qiniu_secret_key: TrRWScDt3e-0jW0giLWDWuXgXHhvH7VxFQPjnNtk  # 你的 qiniu SecretKey
-
-   qiniu_bucket: jdstore-demo  # 你的 qiniu bucket
-
-   qiniu_bucket_domain: om2xiyi90.bkt.clouddn.com # 你的 qiniu bucket domain
-
-
-
- development:
-   qiniu_access_key: lx3soAekptE6RGMKt_-LBi-VYee06XYjC6qKwsTD  # 你的 qiniu AccessKey
-
-   qiniu_secret_key: TrRWScDt3e-0jW0giLWDWuXgXHhvH7VxFQPjnNtk  # 你的 qiniu SecretKey
-
-   qiniu_bucket: jdstore-demo # 你的 qiniu bucket
-
-   qiniu_bucket_domain: om2xiyi90.bkt.clouddn.com # 你的 qiniu bucket domain
+development:
+  qiniu_access_key: lx3soAekptE6RGMKt_-LBi-VYee06XYjC6qKwsTD  # 你的 qiniu AccessKey
+  qiniu_secret_key: TrRWScDt3e-0jW0giLWDWuXgXHhvH7VxFQPjnNtk  # 你的 qiniu SecretKey
+  qiniu_bucket: jdstore-demo # 你的 qiniu bucket
+  qiniu_bucket_domain: om2xiyi90.bkt.clouddn.com # 你的 qiniu bucket domain
